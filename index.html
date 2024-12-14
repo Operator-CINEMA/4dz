@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    button {
+        width: 40px;
+        height: 20px;
+        background-color: plum;
+    }
+    .cordinat {
+        width: 500px;
+        height: 500px;
+        border: 10px dashed black;
+        text-align: center;
+        font-size: 36px;
+    }
+    .traffic{
+        width: 300px;
+        height: 600px;
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    .light {
+        width: 150px;
+        height:150px;
+        border-radius: 50%;
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+    }
+    .red{
+        background-color: red;
+    }
+    .green{
+        background-color: green;
+    }
+</style>
+<body>
+    <h2  id="counter" >0</h2>
+    <button id="plus">+</button>
+    <button id="minus">-</button>
+    <div class="cordinat">
+        x:y:
+    </div>
+    <div class="traffic">
+        <div class="redLight light"></div>
+        <div class="greenLight light"></div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
